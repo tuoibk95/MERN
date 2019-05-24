@@ -1,0 +1,77 @@
+[{
+        "name": "chungxe_user",
+        "type": "mysql",
+        "host": "localhost",
+        "port": 3306,
+        "username": "root",
+        "password": "chungxe",
+        "database": "chungxe_user",
+        "entities": [
+            "app/entities/user/*.ts"
+        ],
+        "migrations": [
+            "app/migration/user/*.ts"
+        ],
+        "subscribers": [
+            "app/subscriber/user/*.ts"
+        ],
+        "synchronize": true
+    },
+    {
+        "name": "chungxe_vehicle",
+        "type": "mysql",
+        "host": "localhost",
+        "port": 3306,
+        "username": "root",
+        "password": "chungxe",
+        "database": "chungxe_vehicle",
+        "entities": [
+            "app/entities/vehicle/*.ts"
+        ],
+        "migrations": [
+            "app/migration/vehicle/*.ts"
+        ],
+        "subscribers": [
+            "app/subscriber/vehicle/*.ts"
+        ],
+        "synchronize": true
+    },
+    {
+        "name": "chungxe_partner",
+        "type": "mysql",
+        "host": "localhost",
+        "port": 3306,
+        "username": "root",
+        "password": "chungxe",
+        "database": "chungxe_partner",
+        "entities": [
+            "app/entities/partner/*.ts"
+        ],
+        "migrations": [
+            "app/migration/partner/*.ts"
+        ],
+        "subscribers": [
+            "app/subscriber/partner/*.ts"
+        ],
+        "synchronize": true
+    },
+    {
+        "name": "chungxe_booking",
+        "type": "mysql",
+        "host": "localhost",
+        "port": 3306,
+        "username": "root",
+        "password": "chungxe",
+        "database": "chungxe_booking",
+        "entities": [
+            "app/entities/booking/*.ts"
+        ],
+        "migrations": [
+            "app/migration/booking/*.ts"
+        ],
+        "subscribers": [
+            "app/subscriber/booking/*.ts"
+        ],
+        "synchronize": true
+    }
+]
