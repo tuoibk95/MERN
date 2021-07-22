@@ -40,7 +40,7 @@
     "save": "^2.3.2",
     "typeorm": "0.2.7",
     "winston": "^3.0.0",
-    "xlsx": "^0.13.4"
+    "xlsx": "^0.17.0"
   },
   "scripts": {
     "start": "ts-node app/index.ts"
